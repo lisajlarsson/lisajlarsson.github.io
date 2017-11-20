@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
 include:
   - _pages
+  - films
 collections:
   films:
     layout: film

@@ -31,7 +31,7 @@ plugins:
 include:
   - _pages
 collections:
-  videos:
+  portfolio:
     layout: video
     output: true
     permalink: /:collection/:path/

@@ -32,16 +32,10 @@ include:
   - _pages
   - films
 collections:
-  films:
-    layout: film
+  videos:
+    layout: video
     output: true
     permalink: /:collection/:path/
-    title: Films
-  tv:
-    layout: film
-    output: true
-    permalink: /:collection/:path/
-    title: TV
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

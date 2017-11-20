@@ -1,8 +1,6 @@
 ---
 title: 100 Code
 genre: Crime
-format: HD
-furation: 3 x 45 mins
 writers:
   - Bobby Moresco
   - Billy Tangradi

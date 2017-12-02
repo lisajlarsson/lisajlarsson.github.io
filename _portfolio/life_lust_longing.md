@@ -4,7 +4,7 @@ genre: Romantic comedy
 writers:
   - Lisa James Larsson
 producers:
-  - 	Andreas Emanuelsson, BOB Film
+  - Andreas Emanuelsson, BOB Film
 actors:
   - Anja Lundqvist
   - Anki Lidén

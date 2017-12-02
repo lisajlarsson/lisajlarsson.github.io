@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: "portfolio" # Used in routes, e.g., /admin/collections/blog
+    label: "Portfolio" # Used in the UI
+    folder: "_portfolio" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Genre", name: "genre", widget: "string"}
+      - {label: "Writers", name: "writers", widget: "list"}
+      - {label: "Producers", name: "producers", widget: "list"}
+      - {label: "Actors", name: "actors", widget: "list"}
+      - {label: "Category", name: "category", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Synopsis", name: "body", widget: "markdown"}

@@ -20,11 +20,11 @@
                 </nav>
             </section>
             <section id="featured" class="featured-section">
-            {% for item in site.portfolio %}
+            {% for item in site.work %}
                 {% if item.tags contains "featured" %}
                     <div class="featured-item">  
                             <img src="/assets/images/{{ item.slug }}_poster.jpg">
-                            <a href="/portfolio/{{ item.slug }}" class="work-link vertical-center">
+                            <a href="/work/{{ item.slug }}" class="work-link vertical-center">
                             
                             <span style="margin:auto;">
                                 <h2>Movie1</h2>

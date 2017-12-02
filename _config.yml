@@ -30,13 +30,13 @@ plugins:
 include:
   - _pages
 collections:
-  portfolio:
+  work:
     output: true
     permalink: /:collection/:path/
 defaults:
   - scope:
       path: ""
-      type: portfolio
+      type: work
     values:
       layout: video
 # Exclude from processing.

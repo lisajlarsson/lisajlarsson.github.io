@@ -11,7 +11,7 @@ actors:
   - Dominic Monaghan
   - Michael Nyqvist
 
-category: tv
+categories: tv 
 tags: featured
 ---
 New York, USA. Stockholm, Sweden.

@@ -191,13 +191,13 @@ img {
     position: relative;
     width: 33%;
     min-width: 300px;
-    min-height: 400px;
+    min-height: 300px;
     /*background-color: rgba(41,39,42,.8);*/
     color: #fff;
     opacity: 1;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 70vh;
+    /*height: 70vh;*/
 }
 
 

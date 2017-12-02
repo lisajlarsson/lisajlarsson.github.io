@@ -13,7 +13,7 @@ actors:
     - Illeana Douglas
     - Lena Olin
     - Patrick Duffy
-categories: films
-synoposis: New York accountant Bruce moves to Sweden after falling in love with a Swedish girl.
-featured: 1
+category: tv
+tags: [featured]
 ---
+New York accountant Bruce moves to Sweden after falling in love with a Swedish girl.

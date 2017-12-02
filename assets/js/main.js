@@ -1,6 +1,6 @@
 window.sr = ScrollReveal();
 sr.reveal('.headline');
-sr.reveal('.featured-item', {viewFactor: 0.05});
+sr.reveal('.featured-item', {viewFactor: 0.01});
 
 var $root = $('html, body');
 

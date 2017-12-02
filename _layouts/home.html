@@ -20,23 +20,22 @@
                 </nav>
             </section>
             <section id="featured" class="featured-section">
+            {% for item in site.portfolio %}
+                {% if item.tags contains "featured" %}
                     <div class="featured-item">
-                        <img src="/assets/images/welcome-to-sweden/poster.jpg">
-                <!--  <a href="#featured" class="work-link">
-                            <div>
-                            <h2>Movie1</h2>
-                            dcdcdc
-                            <p>Website</p>
-                            <span>View project</span>
-                            </div>
-                        </a> -->
+                            <img src="/assets/images/{{ item.slug }}_poster.jpg">
+                        <a href="#featured" class="work-link vertical-center">
+                            
+                            <span style="margin:auto">
+                                <h2>Movie1</h2>
+                                dcdcdc
+                                <p>Website</p>
+                                View project
+                            </span>
+                        </a>
                     </div>
-                    <div class="featured-item">
-                        <img src="/assets/images/100-code/poster.jpg">
-                    </div>
-                    <div class="featured-item">
-                        <img src="/assets/images/welcome-to-sweden/poster.jpg">  
-                    </div>
+                {% endif %}
+            {% endfor %}
             </section>
             <footer>
                 FOOTER

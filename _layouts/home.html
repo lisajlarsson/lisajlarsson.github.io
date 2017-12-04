@@ -19,12 +19,12 @@
                     </ul>
                 </nav>
             </section>
-            <section id="featured" class="featured-section">
+            <section id="featured" class="featured-section vertical-center ">
             {% for item in site.work %}
                 {% if item.tags contains "featured" %}
                     <div class="featured-item">  
-                            <img src="/assets/images/{{ item.slug }}_poster.jpg">
-                            <a href="/work/{{ item.slug }}" class="work-link vertical-center">
+                            <img src="/assets/images/{{ item.slug }}_poster.jpg" style="object-fit: cover">
+                            <a href="/work/{{ item.slug }}" class="work-link">
                             
                             <span style="margin:auto;">
                                 <h2>Movie1</h2>

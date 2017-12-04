@@ -15,6 +15,7 @@ actors:
     - Liv Mjönes
     - Sara Vilén
 category: film
+imdb: tt4861696
 tags: featured
 ---
 Tsatsiki längtar till sommarlovet då han ska åka till Grekland för att bo hos sin pappa Yanis.

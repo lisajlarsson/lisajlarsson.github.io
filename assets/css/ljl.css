@@ -173,8 +173,8 @@ a {
 }
 
 .featured-section{
-	/*display: -webkit-flex;
-	display: flex;*/
+	display: -webkit-flex;
+	display: flex;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
     padding: 0 1.25rem 2.5rem;
@@ -187,22 +187,16 @@ img {
 }
 
 .featured-item{
-    margin: 0 0 auto;
+    margin: 0.5rem auto;
     position: relative;
     width: 33%;
     min-width: 200px;
     max-width: 800px;
     max-height: 1000px;
-    /*min-height: 300px;
-    */
-    /*background-color: rgba(41,39,42,.8);
-    */
     color: #fff;
     opacity: 1;
     background-size: contain;
     background-repeat: no-repeat;
-    /*height: 70vh;
-    */
 }
 
 

@@ -19,76 +19,31 @@
                     </ul>
                 </nav>
             </section>
-            <section id="featured" class="featured-section vertical-center ">
+            <section id="featured" class="featured-section">
             {% for item in site.work %}
                 {% if item.tags contains "featured" %}
-                    <div class="featured-item">  
-                            <img src="/assets/images/{{ item.slug }}_poster.jpg" style="object-fit: cover">
-                            <a href="/work/{{ item.slug }}" class="work-link">
-                            
-                            <span style="margin:auto;">
-                                <h2>Movie1</h2>
-                                dcdcdc
-                                <p>Website</p>
-                                View project
-                            </span>
+                    <div class="featured-item">
+                        <img src="/assets/images/{{ item.slug }}_poster.jpg" style="object-fit: scale-down;">
+                        <a href="http://www.imdb.com/title/{{ item.imdb }}" class="work-link">
+                        <div>
+                            <h2>{{ item.title }}</h2>
+                        </div>
                         </a>
                     </div>
                 {% endif %}
             {% endfor %}
             </section>
+
             <footer>
-                FOOTER
+                
             </footer>
-<!--             <section id="featured" class="featured">
-                <ul class="work-list">
-                    <li class="work-list-item" style="background-image: url(/assets/images/welcome-to-sweden/poster.jpg)">
-                        <a href="#featured" class="work-link">
-                        <div>
-                        <h2>Movie1</h2>
-                        dcdcdc
-                        <p>Website</p>
-                        <span>View project</span>
-                        </div>
-                        </a>
-                    </li>
-                    <li class="work-list-item">
-                        <a href="#featured" class="work-link vertical-center">
-                        <div>
-                        <h2>Movie2</h2>
-                        <p class="subheader headline">Website</p>
-                        <span class="link-pseudo">View project</span>
-                        </div>
-                        </a>
-                    </li>
-                    <li class="work-list-item">
-                        <a href="#featured" class="work-link vertical-center">
-                        <div>
-                        <h2>Movie3</h2>
-                        <p class="subheader headline">Website</p>
-                        <span class="link-pseudo">View project</span>
-                        </div>
-                        </a>
-                    </li>
-                </ul>
-            </section> -->
     </div>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/vendor/scrollreveal.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-            if (window.netlifyIdentity) {
-              window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                  window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                  });
-                }
-              });
-            }
-          </script>
+    <script src="assets/js/netlify.js"></script>
   </body>
 </html>

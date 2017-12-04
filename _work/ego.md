@@ -11,6 +11,7 @@ actors:
   - Peter Andersson
   - Sissela Kyle
 category: film
+imdb: tt2287715
 video:
   id: SUHrNYxCGBc
   provider: youtube

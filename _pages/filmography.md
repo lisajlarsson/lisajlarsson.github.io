@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Filmography
 permalink: /filmography/
 ---
 EGO Director/Writer, Romantic-comedy/Drama (1h.45 mins) Produced by Filmlance International. With Martin Wallström, Mylaine Hedreul, Sissela Kyle, Peter Andersson & Emil Johnsen.

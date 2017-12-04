@@ -1,5 +1,5 @@
 ---
-title: Ego
+title: Life, Lust, Longing
 genre: Romantic comedy
 writers:
   - Lisa James Larsson

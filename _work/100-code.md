@@ -12,7 +12,7 @@ actors:
   - Michael Nyqvist
 
 categories: tv 
-tags: featured
+tags: [featured]
 imdb: tt3515512
 ---
 New York, USA. Stockholm, Sweden.

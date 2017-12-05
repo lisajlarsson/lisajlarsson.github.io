@@ -11,7 +11,7 @@ actors:
   - Dominic Monaghan
   - Michael Nyqvist
 
-categories: tv 
+categories: [tv]
 tags: [featured]
 imdb: tt3515512
 ---

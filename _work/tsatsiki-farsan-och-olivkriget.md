@@ -14,7 +14,7 @@ actors:
     - Jonathan Rodriguez
     - Liv Mjönes
     - Sara Vilén
-category: film
+categories: [film]
 imdb: tt4861696
 tags: [featured]
 ---

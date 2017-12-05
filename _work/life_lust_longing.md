@@ -14,7 +14,7 @@ actors:
   - Joel Spira
   - Josephine Bornebusch
   - Maria Selbing
-category: film
+categories: [film, short]
 imdb: tt2318585
 tags: []
 ---

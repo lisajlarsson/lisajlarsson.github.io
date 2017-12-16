@@ -4,6 +4,7 @@ genre: Crime
 categories: [tv]
 tags: [featured]
 imdb: tt3515512
+poster: 100-code_poster.jpg
 ---
 New York, USA. Stockholm, Sweden.
 Over the past twelve months young, blonde, blue-eyed women have been found dead in a meadow where Asphodel flowers grow.

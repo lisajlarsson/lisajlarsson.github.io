@@ -5,7 +5,7 @@ date: '2015-12-11'
 genre: Family
 category: film
 imdb: tt4861696
-poster: tsatsiki-farsan-och-olivkriget_poster.jpg
+poster: /assets/images/tsatsiki-farsan-och-olivkriget_poster.jpg
 ---
 Tsatsiki längtar till sommarlovet då han ska åka till Grekland för att bo hos sin pappa Yanis.
 

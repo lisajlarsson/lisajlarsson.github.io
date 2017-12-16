@@ -1,6 +1,7 @@
 ---
 title: Welcome to Sweden
 featured: true
+date: '2015-08-05'
 genre: Comedy
 category: tv
 imdb: tt3463606

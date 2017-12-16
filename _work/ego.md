@@ -6,8 +6,9 @@ imdb: tt2287715
 video:
   id: SUHrNYxCGBc
   provider: youtube
-categories: [film]
-poster: ego_poster.jpg
+category: film
+poster: /assets/images/ego_poster.jpg
+date: '2013-01-25'
 ---
 When the world looks at Sebastian Silverberg it sees a young man who has it all. When Sebastian looks at the world he sees an abundance of partying, popularity, and sex with beautiful girls. Just around the corner his dream of becoming a successful recording artist is about to come true. But when Sebastian turns that corner, everything changes and suddenly he can no longer see anything.
 

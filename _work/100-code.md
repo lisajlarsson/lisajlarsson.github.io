@@ -3,7 +3,7 @@ title: 100 Code
 genre: Crime
 category: tv
 imdb: tt3515512
-poster: 100-code_poster.jpg
+poster: /assets/images/100-code_poster.jpg
 featured: true
 date: '2015-03-06'
 ---

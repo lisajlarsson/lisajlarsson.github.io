@@ -15,6 +15,9 @@ collections:
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list", required: "false"}
       - {label: "IMDB", name: "imdb", widget: "string"}
+      - label: "Poster"
+        name: "poster"
+        widget: "image"
       - label: "Video"
         name: "video"
         widget: "object"

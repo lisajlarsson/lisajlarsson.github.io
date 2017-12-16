@@ -2,7 +2,6 @@
 title: 100 Code
 genre: Crime
 categories: [tv]
-tags: [featured]
 imdb: tt3515512
 poster: 100-code_poster.jpg
 ---

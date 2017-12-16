@@ -14,7 +14,7 @@
                 <nav id="js-nav" class="mainnav">
                     <ul>
                         <li><a href="#featured">Featured work</a></li
-                        ><li><a href="#biography">Biography</a></li
+                        ><li><a href="#about">About</a></li
                         ><li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -34,8 +34,19 @@
                 {% endif %}
             {% endfor %}
             </section>
-            <section id="about" class="about-section">
-                    {{ content }}
+            <section id="about">
+                <div class="about-section" style="margin-left:0.5em;margin-right:0.5em;">
+                    <div style="text-align: center"></div>
+                    <div>
+                        <img src="/assets/images/lisa.jpg" style="float:left;width: 33%;min-width:140px;margin-right:2.5em;margin-bottom:1.5em">
+                        {{ content }}
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact-section" style="padding-top:2.5em">
+                    <div style="text-align: center">
+                    <a href="mailto:lisa@lisajlarsson.com">lisa@lisajlarsson.com</a>
+                    </section>
             </section>
             <footer>
                 

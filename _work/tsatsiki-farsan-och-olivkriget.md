@@ -1,19 +1,6 @@
 ---
 title: Tsatsiki, Farsan och olivkriget
 genre: Family
-writers:
-    - Moni Nilsson
-producers:
-    - Jarowskij
-    - Susann Billberg
-    - Lotta Westberg
-actors:
-    - Adam Gutniak
-    - Christine Meltzer
-    - Emrik Ekholm
-    - Jonathan Rodriguez
-    - Liv Mjönes
-    - Sara Vilén
 categories: [film]
 imdb: tt4861696
 tags: [featured]

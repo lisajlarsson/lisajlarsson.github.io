@@ -1,12 +1,6 @@
 ---
 title: Victoria
 genre: Drama
-writers:
-  - Daisy Goodwin
-producers:
-  - Masterpiece
-actors:
-  - Jenna Coleman
 categories:
   - TV
 tags:

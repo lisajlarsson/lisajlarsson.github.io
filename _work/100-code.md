@@ -1,16 +1,6 @@
 ---
 title: 100 Code
 genre: Crime
-writers:
-  - Bobby Moresco
-  - Billy Tangradi
-producers:
-  - Strix Drama
-  - Red Arrow
-actors:
-  - Dominic Monaghan
-  - Michael Nyqvist
-
 categories: [tv]
 tags: [featured]
 imdb: tt3515512

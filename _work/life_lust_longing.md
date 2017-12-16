@@ -1,19 +1,6 @@
 ---
 title: Life, Lust, Longing
 genre: Romantic comedy
-writers:
-  - Lisa James Larsson
-producers:
-  - Andreas Emanuelsson, BOB Film
-actors:
-  - Anja Lundqvist
-  - Anki Lidén
-  - Bisse Unger
-  - Gustaf Hammarsten
-  - Hanna Asp
-  - Joel Spira
-  - Josephine Bornebusch
-  - Maria Selbing
 categories: [film, short]
 imdb: tt2318585
 tags: []

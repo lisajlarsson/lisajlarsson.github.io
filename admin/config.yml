@@ -12,12 +12,19 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Genre", name: "genre", widget: "string"}
-      - {label: "Writers", name: "writers", widget: "list"}
-      - {label: "Producers", name: "producers", widget: "list"}
-      - {label: "Actors", name: "actors", widget: "list"}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list", required: "false"}
+      - {label: "IMDB", name: "imdb", widget: "string"}
       - {label: "Synopsis", name: "body", widget: "markdown", required: "false"}
+      - label: "Video"
+        name: "video"
+        widget: "object"
+        fields: 
+          - {label: "Provider", name: "provider", widget: "select", options:
+            - { label: "Youtube", value: "youtube" }
+            - { label: "Vimeo", value: "vimeo" }
+            }
+          - {label: "ID", name: "id", widget: "string"}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored

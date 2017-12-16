@@ -1,13 +1,6 @@
 ---
 title: Little children, big words
 genre: Drama
-writers:
-  - Lisa James Larsson
-producers:
-actors:
-  - Axel Andersson
-  - Cecilia Milocco
-  - Polly Kirsh
 categories: [short]
 imdb: tt1692195
 ---

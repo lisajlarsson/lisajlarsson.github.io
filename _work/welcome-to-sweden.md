@@ -1,18 +1,6 @@
 ---
 title: Welcome to Sweden
 genre: Comedy
-writers:
-    - Greg Poehler
-producers:
-    - Jarowskij
-actors:
-    - Amy Poehler
-    - Aubrey Plaza
-    - Greg Poehler
-    - Josephine Bornebusch
-    - Illeana Douglas
-    - Lena Olin
-    - Patrick Duffy
 categories: [tv]
 imdb: tt3463606
 tags: [featured]

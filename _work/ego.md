@@ -1,15 +1,6 @@
 ---
 title: Ego
 genre: Romantic comedy
-writers:
-  - Lisa James Larsson
-producers:
-  - Tomas Michaelsson - Filmlance International
-actors:
-  - Martin Wallström
-  - Mylaine Hedreul
-  - Peter Andersson
-  - Sissela Kyle
 category: film
 imdb: tt2287715
 video:

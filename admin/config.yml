@@ -49,4 +49,6 @@ collections:
         name: "home"
         file: "_pages/home.md"
         fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: /}
           - {label: "Body", name: "body", widget: "markdown"}

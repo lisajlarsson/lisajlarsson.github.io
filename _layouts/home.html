@@ -21,7 +21,7 @@
             </section>
             <section id="featured" class="featured-section">
             {% assign items = site.work | sort: 'date' %}
-            {% for item in items %}
+            {% for item in items reversed %}
                 {% if item.featured %}
                     <div class="featured-item">
                         <img src="/assets/images/{{ item.poster }}" style="object-fit: scale-down;">

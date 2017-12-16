@@ -23,7 +23,7 @@
             {% for item in site.work %}
                 {% if item.tags contains "featured" %}
                     <div class="featured-item">
-                        <img src="/assets/images/{{ item.slug }}_poster.jpg" style="object-fit: scale-down;">
+                        <img src="/assets/images/{{ item.poster }}" style="object-fit: scale-down;">
                         <a href="http://www.imdb.com/title/{{ item.imdb }}" class="work-link">
                         <div>
                             <h2>{{ item.title }}</h2>

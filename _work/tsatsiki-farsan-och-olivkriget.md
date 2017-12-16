@@ -1,7 +1,7 @@
 ---
 title: Tsatsiki, Farsan och olivkriget
 genre: Family
-categories: [film]
+category: film
 imdb: tt4861696
 poster: tsatsiki-farsan-och-olivkriget_poster.jpg
 ---

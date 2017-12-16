@@ -1,7 +1,7 @@
 ---
 title: Welcome to Sweden
 genre: Comedy
-categories: [tv]
+category: tv
 imdb: tt3463606
 poster: welcome-to-sweden_poster.jpg
 ---

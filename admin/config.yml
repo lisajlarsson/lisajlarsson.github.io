@@ -23,7 +23,7 @@ collections:
         min: 1
         max: 100
       - {label: "Genre", name: "genre", widget: "select", options: ["Drama", "Comedy", "Crime", "Romantic comedy", "Family"]}
-      - {label: "Categories", name: "categories", widget: "select", options: ["film", "tv", "short"]}
+      - {label: "Category", name: "category", widget: "select", options: ["film", "tv", "short"]}
       - {label: "IMDB", name: "imdb", widget: "string"}
       - label: "Poster"
         name: "poster"

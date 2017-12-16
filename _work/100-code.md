@@ -5,7 +5,7 @@ category: tv
 imdb: tt3515512
 poster: 100-code_poster.jpg
 featured: true
-priority: 50
+date: 2015-03-06
 ---
 New York, USA. Stockholm, Sweden.
 Over the past twelve months young, blonde, blue-eyed women have been found dead in a meadow where Asphodel flowers grow.

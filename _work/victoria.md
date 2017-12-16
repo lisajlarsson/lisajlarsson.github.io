@@ -1,7 +1,6 @@
 ---
 title: Victoria
 featured: true
-priority: 40
 genre: Drama
 category: tv
 imdb: tt5137338

@@ -1,5 +1,7 @@
 ---
-title: Tsatsiki, Farsan och olivkriget
+title: 'Tsatsiki, Farsan och olivkriget'
+featured: true
+date: '2015-12-11'
 genre: Family
 category: film
 imdb: tt4861696

@@ -7,6 +7,7 @@ video:
   id: SUHrNYxCGBc
   provider: youtube
 category: film
+featured: true
 poster: /assets/images/ego_poster.jpg
 date: '2013-01-25'
 ---

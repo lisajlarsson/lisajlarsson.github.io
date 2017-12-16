@@ -38,9 +38,11 @@ collections:
             name: "provider"
             widget: "select"
             options: ["youtube", "vimeo"]
+            required: false
           - label: "ID"
             name: "id"
             widget: "string"
+            required: false
       - {label: "Synopsis", name: "body", widget: "markdown", required: false}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI

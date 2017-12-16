@@ -19,13 +19,11 @@ collections:
       - label: "Video"
         name: "video"
         widget: "object"
-        fields: 
+        fields:
           - label: "Provider"
             name: "provider"
             widget: "select"
-            options:
-              - { label: "Youtube", value: "youtube" }
-              - { label: "Vimeo", value: "vimeo" }
+            options: ["youtube", "vimeo"]
           - label: "ID"
             name: "id"
             widget: "string"

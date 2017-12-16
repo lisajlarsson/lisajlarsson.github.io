@@ -16,8 +16,8 @@ collections:
       - {label: "Producers", name: "producers", widget: "list"}
       - {label: "Actors", name: "actors", widget: "list"}
       - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Synopsis", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", required: "false"}
+      - {label: "Synopsis", name: "body", widget: "markdown", required: "false"}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored

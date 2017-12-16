@@ -20,11 +20,15 @@ collections:
         name: "video"
         widget: "object"
         fields: 
-          - {label: "Provider", name: "provider", widget: "select", options:
-            - { label: "Youtube", value: "youtube" }
-            - { label: "Vimeo", value: "vimeo" }
-            }
-          - {label: "ID", name: "id", widget: "string"}
+          - label: "Provider"
+            name: "provider"
+            widget: "select"
+            options:
+              - { label: "Youtube", value: "youtube" }
+              - { label: "Vimeo", value: "vimeo" }
+          - label: "ID"
+            name: "id"
+            widget: "string"
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored

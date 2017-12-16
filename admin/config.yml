@@ -17,7 +17,7 @@ collections:
         default: "false"
       - label: "Priority"
         name: "priority"
-        required: "false"
+        required: false
         widget: "number"
         valueType: "int"
         default: 50

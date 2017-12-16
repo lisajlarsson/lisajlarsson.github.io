@@ -20,7 +20,7 @@
                 </nav>
             </section>
             <section id="featured" class="featured-section">
-            {% assign items = site.work | sort: 'priority' %}
+            {% assign items = site.work | sort: 'date' %}
             {% for item in items %}
                 {% if item.featured %}
                     <div class="featured-item">

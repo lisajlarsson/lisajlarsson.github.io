@@ -4,10 +4,21 @@ layout: default
 
 <style type="text/css" media="screen">
   .container {
+    position: relative;
     margin: 10px auto;
-    max-width: 600px;
     text-align: center;
+    object-fit: contain;
+    color:#fff;
+    min-width: 300px;
   }
+
+  .message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
   h1 {
     margin: 30px 0;
     font-size: 4em;
@@ -17,8 +28,10 @@ layout: default
 </style>
 
 <div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <img src='/assets/images/clapper.png' />
+  <div class="message"
+    <h1>404</h1>
+    <p><strong>Page not found :(</strong></p>
+    <p>The requested page could not be found.</p>
+  </div>
 </div>

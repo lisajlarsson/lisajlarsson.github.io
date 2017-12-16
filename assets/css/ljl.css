@@ -182,6 +182,18 @@ a {
     padding-top: 0.1rem;
 }
 
+.about-section{
+    color: #fff;
+    background-color: #b3d4fc;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+    padding: 0 1.25rem 2.5rem;
+    width: 100%;
+    padding-top: 0.1rem;
+}
+
 img {
     width:100%;
 }

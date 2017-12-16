@@ -19,6 +19,7 @@ collections:
         name: "date"
         required: true
         widget: "date"
+        format: "YYYY-MM-DD"
       - {label: "Genre", name: "genre", widget: "select", options: ["Drama", "Comedy", "Crime", "Romantic comedy", "Family"]}
       - {label: "Category", name: "category", widget: "select", options: ["film", "tv", "short"]}
       - {label: "IMDB", name: "imdb", widget: "string"}

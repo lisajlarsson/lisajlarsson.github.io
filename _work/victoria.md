@@ -3,7 +3,6 @@ title: Victoria
 genre: Drama
 writers:
   - Daisy Goodwin
-  - A.N. Wilson
 producers:
   - Masterpiece
 actors:

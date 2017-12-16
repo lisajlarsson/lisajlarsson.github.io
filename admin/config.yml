@@ -11,6 +11,10 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - label: "Featured"
+        name: "featured"
+        widget: "boolean"
+        default: "false"
       - label: "Priority"
         name: "priority"
         widget: "number"
@@ -18,12 +22,8 @@ collections:
         default: 50
         min: 1
         max: 100
-      - {label: "Genre", name: "genre", widget: "string"}
+      - {label: "Genre", name: "genre", widget: "select", options: ["Drama", "Comedy", "Crime", "Romantic comedy", "Family"]}
       - {label: "Categories", name: "categories", widget: "select", options: ["film", "tv", "short"]}
-      - label: "Featured"
-        name: "featured"
-        widget: "boolean"
-        default: "false"
       - {label: "IMDB", name: "imdb", widget: "string"}
       - label: "Poster"
         name: "poster"

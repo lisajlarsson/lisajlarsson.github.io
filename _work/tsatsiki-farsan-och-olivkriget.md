@@ -14,9 +14,9 @@ actors:
     - Jonathan Rodriguez
     - Liv Mjönes
     - Sara Vilén
-category: film
+categories: [film]
 imdb: tt4861696
-tags: featured
+tags: [featured]
 ---
 Tsatsiki längtar till sommarlovet då han ska åka till Grekland för att bo hos sin pappa Yanis.
 

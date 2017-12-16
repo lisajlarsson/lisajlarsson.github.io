@@ -13,7 +13,7 @@ actors:
     - Illeana Douglas
     - Lena Olin
     - Patrick Duffy
-category: tv
+categories: [tv]
 imdb: tt3463606
 tags: [featured]
 ---

@@ -15,7 +15,7 @@ collections:
       - {label: "Writers", name: "writers", widget: "list"}
       - {label: "Producers", name: "producers", widget: "list"}
       - {label: "Actors", name: "actors", widget: "list"}
-      - {label: "Category", name: "category", widget: "list"}
+      - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Synopsis", name: "body", widget: "markdown"}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
